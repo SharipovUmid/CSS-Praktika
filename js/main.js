@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $("#searchBtn").click(function(){
+        $("#searchForm").toggleClass("opacity");
+    });
+});
+$(document).ready(function(){
+    $("#searchBtn").click(function(){
+        $("#icon-search").toggleClass("opacity1");
+    });
+});
+$(document).ready(function(){
+    $("#searchBtn").click(function(){
+        $("#icon-search2").toggleClass("icon-search12");
+    });
+});
